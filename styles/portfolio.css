@@ -69,6 +69,10 @@ nav{
     border: none;
     
 }
+
+.btn-position{
+    margin-bottom: 50px;
+}
 .nav-title{
 
     font-size: 45px;
@@ -180,4 +184,28 @@ main section{
 
 .resume-download-cv{
     margin-top: 10px;
+}
+/* footer style  */
+
+footer{
+    padding: 130px 230px;
+    display: flex; 
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+
+    height: 64px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 24px;
 }
